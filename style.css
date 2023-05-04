@@ -1,0 +1,141 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos do body */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Estilos do header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+  /* Estilos do nav */
+  nav {
+    background-color: #f5f5f5;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Estilos do section */
+  section {
+    margin: 50px;
+  }
+  
+  section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+  }
+  
+  section a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  section a:hover {
+    color: #007bff;
+  }
+  
+  /* Estilos do footer */
+  footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  
+  /* Estilos específicos da página de contato */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Estilos específicos da página de portfolio */
+  .portfolio-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
